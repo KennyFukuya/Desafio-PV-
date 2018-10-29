@@ -1,0 +1,39 @@
+.register-content {
+  border: 1px solid black;
+  padding: 15px;
+  display: inline-block;
+}
+
+.register-content div {
+  width: 100%;
+}
+
+.register-content div input{
+  width: 40%;
+  margin: 20px 50px 20px 50px;
+}
+
+.register-content span{
+  width: 100%;
+  text-align: left;
+  margin-left: 60px;
+}
+
+.title {
+  font-size: 30px;
+  text-align: right !important;
+  margin-right:  60px !important;
+}
+
+.container {
+  width: 70%;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.register-button{
+	background-color:#33bdef;
+  margin-right: 59px !important;
+  border: 1px solid #ccc
+ 
+}

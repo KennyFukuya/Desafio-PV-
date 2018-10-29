@@ -1,0 +1,38 @@
+table.Table {
+  border: 2px solid #000000;
+  background-color: #D5CFCF;
+  width: 100%;
+  height: 200px;
+  text-align: left;
+  border-collapse: collapse;
+}
+table.Table td, table.Table th {
+  border: 1px solid #AAAAAA;
+  padding: 3px 2px;
+}
+table.Table tbody td {
+  font-size: 14px;
+  border-bottom: 2px solid #0C0C0C;
+  border-left: 2px solid #000000;
+}
+table.Table tr:nth-child(even) {
+  background: #FFFFFF;
+}
+table.Table thead {
+  background: #544E4E;
+  border-bottom: 2px solid #0C0C0C;
+}
+table.Table thead th {
+  font-size: 18px;
+  font-weight: bold;
+  color: #FFF6ED;
+  text-align: center;
+  border-left: 2px solid #000000;
+}
+table.Table thead th:first-child {
+  border-left: none;
+}
+
+table.Table tfoot td {
+  font-size: 14px;
+}
